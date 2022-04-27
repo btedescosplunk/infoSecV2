@@ -1,0 +1,60 @@
+[app/ui]
+version = 8.2.5
+modtime = 1649031488.266545000
+
+[app/launcher]
+version = 8.2.5
+modtime = 1649031488.268730000
+
+[views/updated_posture]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 8.2.5
+modtime = 1649050828.359880000
+
+[nav/default]
+version = 8.2.5
+modtime = 1651029427.886088000
+
+[views/windows_access_and_changes_updated]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 8.2.5
+modtime = 1650441025.277618000
+
+[views/malware_updated]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 8.2.5
+modtime = 1650430129.548112000
+
+[views/all_authentications_update]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 8.2.5
+modtime = 1649653855.386407000
+
+[views/intrusion_detection_updated]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 8.2.5
+modtime = 1649897576.159459000
+
+[views/firewall_updated]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 8.2.5
+modtime = 1650424625.544397000
+
+[views/network_traffic_updated]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 8.2.5
+modtime = 1650429319.143312000

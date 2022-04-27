@@ -1,0 +1,13 @@
+<nav search_view="search">
+  <view name="search"/>
+  <view name="updated_posture" default='true' />
+  <collection label="Continous Monitoring">
+    <view name="windows_access_and_changes_updated"/>
+    <view name="all_authentications_update"/>
+    <view name="malware_updated"/>
+    <view name="intrusion_detection_updated"/>
+    <view name="firewall_updated"/>
+    <view name="network_traffic_updated"/>
+  </collection>
+  <view name="dashboards" />
+</nav>
