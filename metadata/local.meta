@@ -11,18 +11,18 @@ access = read : [ * ], write : [ admin ]
 export = none
 owner = admin
 version = 8.2.5
-modtime = 1649050828.359880000
+modtime = 1651541755.610047000
 
 [nav/default]
 version = 8.2.5
-modtime = 1651029427.886088000
+modtime = 1651532299.842475000
 
 [views/windows_access_and_changes_updated]
 access = read : [ * ], write : [ admin ]
 export = none
 owner = admin
 version = 8.2.5
-modtime = 1650441025.277618000
+modtime = 1651121464.940249000
 
 [views/malware_updated]
 access = read : [ * ], write : [ admin ]
@@ -36,25 +36,42 @@ access = read : [ * ], write : [ admin ]
 export = none
 owner = admin
 version = 8.2.5
-modtime = 1649653855.386407000
+modtime = 1651622481.859643000
 
 [views/intrusion_detection_updated]
 access = read : [ * ], write : [ admin ]
 export = none
 owner = admin
 version = 8.2.5
-modtime = 1649897576.159459000
+modtime = 1651569785.109296000
 
 [views/firewall_updated]
 access = read : [ * ], write : [ admin ]
 export = none
 owner = admin
 version = 8.2.5
-modtime = 1650424625.544397000
+modtime = 1651568830.929821000
 
 [views/network_traffic_updated]
 access = read : [ * ], write : [ admin ]
 export = none
 owner = admin
 version = 8.2.5
-modtime = 1650429319.143312000
+modtime = 1651532432.516313000
+
+[views/all_authentications_map]
+owner = admin
+version = 8.2.5
+modtime = 1651462070.253762000
+
+[views/intrusion_detection_time_lapse]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 8.2.5
+modtime = 1651482679.116372000
+
+[views/network_traffic_map]
+owner = admin
+version = 8.2.5
+modtime = 1651532230.498136000

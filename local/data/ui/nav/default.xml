@@ -9,5 +9,11 @@
     <view name="firewall_updated"/>
     <view name="network_traffic_updated"/>
   </collection>
+  
+  <collection label="IP Map Investigations">
+    <view name="all_authentications_map"/>
+    <view name="network_traffic_map"/>
+  </collection>
+  
   <view name="dashboards" />
 </nav>
